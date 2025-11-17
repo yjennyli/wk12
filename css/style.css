@@ -85,6 +85,20 @@ button:hover {
     cursor: pointer;
 }
 
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(../images/right.png) right 48% no-repeat;
+  background-color: transparent;
+  background-size: 40px auto; 
+  opacity: 1;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
 /* For Lecture */
 
 #modal {
@@ -165,6 +179,80 @@ button:hover {
     opacity: 1;
     transform: scale(1);
   }
+  
+  
+.lb-data .lb-caption {
+
+  font-size: 25px;
+
+  font-weight: bold;
+
+  line-height: 1em;
+  color: #9b59b6;
+
+}
+
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color:#5F3271;
+}
+
+.lb-nav a.lb-next {
+
+  width: 64%;
+
+  right: 0;
+
+  float: right;
+
+  background: url(../dist/images/right.png) right 48% no-repeat;
+
+  background-color: transparent;
+
+  background-size: 40px auto; 
+
+  opacity: 1;
+
+  -webkit-transition: opacity 0.6s;
+
+  -moz-transition: opacity 0.6s;
+
+  -o-transition: opacity 0.6s;
+
+  transition: opacity 0.6s;
+
+}
+
+
+.lb-nav a.lb-prev {
+
+  width: 34%;
+
+  left: 0;
+
+  float: left;
+
+  background: url(../dist/images/left.png) left 48% no-repeat;
+
+  background-size: 40px auto;
+
+  background-color: transparent;
+
+  opacity: 1;
+
+  -webkit-transition: opacity 0.6s;
+
+  -moz-transition: opacity 0.6s;
+
+  -o-transition: opacity 0.6s;
+
+  transition: opacity 0.6s;
+
+}
   
   
 
